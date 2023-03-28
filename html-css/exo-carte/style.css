@@ -1,0 +1,32 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.card{
+    border-radius: 5px;
+    background-color: #838383;
+    margin: 110px auto;
+    padding: 0px 0px 150px 0px;
+    width: 300px;
+    height: 400px;
+    text-align: center;
+}
+
+button{
+    background-color: #3c31b6;
+    border-radius: 55px;
+    display: block;
+    padding: 2%;
+    margin: 2%;
+    height: 50px;
+}
+
+button a{
+    color: white;
+    text-decoration: none;
+}
+
+img{
+    border-radius: 5px;
+}
