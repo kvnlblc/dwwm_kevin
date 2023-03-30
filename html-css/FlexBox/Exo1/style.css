@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: cadetblue;
+}
+.container{
+    height: 800px;
+    margin: 150px;
+}
+.orange{
+    height: 30vh;
+    background-color: orangered;
+}
+.grisJaune{
+    display: flex;
+    padding-top: 30px;
+}
+.gris{
+    display: flex;
+    flex: 1;
+    height: 80vh;
+    background-color: grey;
+    margin-right: 15px;
+}
+.jaune{
+    display: flex;
+    flex: 3;
+    background-color: yellow;
+    height: 80vh;
+}
+.vert{
+    margin-top: 30px;
+    height: 30vh;
+    background-color: green;
+}

@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: cadetblue;
+}
+.container{
+    height: 800px;
+    margin: 150px;
+}
+.orange{
+    height: 30vh;
+    background-color: orangered;
+}
+.parent1{
+    display: flex;
+    padding-top: 30px;
+    background-color: cadetblue;
+}
+.parent2{
+    display: flex;
+    height:80vh;
+    flex: 3;
+    background-color: cadetblue;
+    flex-direction: column;
+    row-gap: 20vh;
+}
+.vertclair{
+    display: flex;
+    height: 10vh;
+    background-color: lightgreen;
+    flex: 3;
+}
+.jaune{
+    display: flex;
+    height: 10vh;
+    background-color: rgb(220, 227, 24);
+    flex: 3;
+}
+.bleu{
+    display: flex;
+    height: 10vh;
+    background-color: rgb(63, 73, 184);
+    flex: 3;
+}
+.gris{
+    display: flex;
+    flex: 1;
+    height: 80vh;
+    background-color: grey;
+    margin-right: 15px;
+}
+.vert{
+    margin-top: 30px;
+    height: 30vh;
+    background-color: green;
+}
