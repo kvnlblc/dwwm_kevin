@@ -1,0 +1,155 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+  width: 1600px;
+  height: 100%;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 1600px;
+  text-decoration: none;
+  height: 59px;
+  background: #DA6431;
+}
+.nav ul {
+  list-style-type: none;
+  display: flex;
+}
+.nav ul li {
+  text-align: center;
+  position: relative;
+}
+.nav a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  border-bottom: 2px solid transparent;
+  padding: 10px 0px;
+}
+.tete {
+  display: flex;
+  flex-direction: column;
+  background: url(images/header.jpg);
+  background-repeat: no-repeat;
+}
+.tete .barefoot {
+  display: flex;
+  width: 411px;
+  height: 233px;
+  left: 292px;
+  top: 433px;
+  background: url(images/barefoot.jpg);
+}
+.tete .skysurf {
+  display: flex;
+  width: 409px;
+  height: 233px;
+  left: 738px;
+  top: 433px;
+  background: url(images/sky.jpg);
+}
+.les_sports_extremes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.les_sports_extremes h2 {
+  color: #E96C36;
+  font-size: 40px;
+}
+.les_sports_extremes p {
+  font-weight: bold;
+  color: grey;
+}
+.les_sports_extremes button {
+  height: 60px;
+  width: 200px;
+  background-color: #863a19;
+  border: none;
+}
+.les_sports_extremes button a {
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.running {
+  display: flex;
+  margin-top: 50px;
+  padding-left: 500px;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  height: 500px;
+  background-image: url(images/equipement.jpg);
+  background-repeat: no-repeat;
+}
+.running p {
+  font-weight: bold;
+  color: #ffffff;
+}
+.running h1 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  color: #E96C36;
+}
+.running span {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 100px;
+  color: #E96C36;
+}
+.running button {
+  height: 60px;
+  width: 200px;
+  background-color: #863a19;
+  border: none;
+}
+.running button a {
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.sur_terre .image_texte {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sur_terre h2 {
+  color: #E96C36;
+}
+.sur_terre p {
+  color: grey;
+}
+.sur_terre .bloc_gauche1 button {
+  height: 60px;
+  width: 200px;
+  background-color: #863a19;
+  border: none;
+}
+.sur_terre .bloc_gauche1 button a {
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.sur_terre .bloc_droite1 button {
+  height: 60px;
+  width: 200px;
+  background-color: #863a19;
+  border: none;
+}
+.sur_terre .bloc_droite1 button a {
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
