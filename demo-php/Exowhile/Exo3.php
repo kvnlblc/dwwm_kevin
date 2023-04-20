@@ -1,7 +1,9 @@
 <?php
-$nombre_depart = Readline("Entrez un nombre de départ :");
-
-for ($i = 1; $i <= 10; $i++) {
-  echo ($nombre_depart + $i) . "\n";
+$saisie = readline("Entre un nombre :\n");
+$compteur =0;
+while($compteur <10){
+  $saisie++;
+  echo $saisie . "\n";
+  $compteur++;
 }
 ?>
