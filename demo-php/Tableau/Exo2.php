@@ -1,19 +1,4 @@
 <?php
-
-// $tab = readline("Entrez vos nombres");
-// $tab = array($tab);
-
-// $count_pos = 0;
-// $count_neg = 0;
-
-// foreach ($tab as $value) {
-//     if ($value >= 0) {
-//         $count_pos++;
-//     } else {
-//         $count_neg++;
-//     }
-// }
-
 $count_pos = 0;
 $count_neg = 0;
 
