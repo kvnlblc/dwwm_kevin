@@ -10,21 +10,21 @@ switch($operation){
         break;
         case"-":
             $somme=$nb1-$nb2;
-            echo "le resultat est :".$somme;
+            echo "le resultat est : ".$somme;
             break;
             case"*":
                 $somme=$nb1*$nb2;
-                echo "le resultat est :".$somme;
+                echo "le resultat est : ".$somme;
                 break;
                 case"/":
                     
                     $somme=$nb1/$nb2;
-                    echo " le resultat est :".$somme;
+                    echo " le resultat est : ".$somme;
                     break;
                     case"%":
                         $somme=$nb1%$nb2;
-                        echo "le resultat est :".$somme;
+                        echo "le resultat est : ".$somme;
                         break;
                         default:
-                        echo "essaye encore";
+                        echo "Invalide";
 }
