@@ -45,7 +45,5 @@ function ppcm($a, $b) {
 $ppcm = ppcm($a, $b);
 echo "Le PPCM de $a et $b est : $ppcm";
 
-// recap
-
 ?>
 
