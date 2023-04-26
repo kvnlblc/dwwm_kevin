@@ -2,6 +2,8 @@
 
 require "fonctions.php";
 
-$nb=rand(1, 20);
+$nb=readline(" entrez le nombre de lignes : ");
+
+triangle($nb);
 
 ?>

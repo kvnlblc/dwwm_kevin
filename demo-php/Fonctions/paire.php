@@ -11,7 +11,7 @@ do {
 
     echo "********** Essai numéro ". $essai . " **********\n";
 
-    $nombre = (int) readline();
+    $nombre = (int)readline();
 
 } while ($nombre % 2 !== 0 || $nombre % 3 !== 0);
 

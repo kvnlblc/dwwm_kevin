@@ -15,6 +15,7 @@ if ($nombre >= 1 && $nombre <= 5) {
 
 //2)
 $nombre = rand(0, 20);
+echo $nombre;
 
 if ($nombre < 7) {
     echo "Bonjour";
