@@ -6,11 +6,6 @@
         <div class="card-body">
             <div class="btn-group-vertical">
                 <a href="index.php" class="btn btn-primary active">Home</a>
-                <a href="debug.php" class="btn btn-light">Débogage</a>
-                <a href="concatenation.php" class="btn btn-light">Concaténation</a>
-                <a href="boucle.php" class="btn btn-lighty">Boucle</a>
-                <a href="#" class="btn btn-light">Fonction</a>
-                <a href="delete.php" class="btn btn-light">Supprimer</a>
             </div>
         </div>
     </div>

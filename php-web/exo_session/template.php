@@ -11,7 +11,22 @@
 </head>
 
 <body>
+<div class="card bg-dark rounded-0">
+        <div class="row g-0">
 
+            <div class="col-md-5">
+                <img src="/images/php.png" alt="logo php" class="img-fluid rounded-start m-3">
+            </div>
+
+            <div class="col-md-7">
+                <div class="card-body text-white">
+                    <h1 class="card-title">PHP procédural</h1>
+                    <p class="card-text">J'apprends et je me perfectionne</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
 
     <?= $content ?>
     <br>
