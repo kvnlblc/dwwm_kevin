@@ -28,9 +28,16 @@
             </div>
             <div class="card mt-5 ms-5" style="width: 18rem;">
                 <div class="card-body">
-                    <h5 class="card-title">En cours</h5>
-                    <p class="card-text">En cours</p>
-                    <a href="#" class="btn btn-primary">X</a>
+                    <h5 class="card-title">Traducteur</h5>
+                    <p class="card-text">Traduire en français, espagnol et anglais</p>
+                    <a href="traducteur" class="btn btn-primary">Allez à l'exercice</a>
+                </div>
+            </div>
+            <div class="card mt-5 ms-5" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Exercice Cookie</h5>
+                    <p class="card-text">Ici vous avez l'exercice de cookie</p>
+                    <a href="exo_cookie" class="btn btn-primary">Allez à l'exercice</a>
                 </div>
             </div>
         </div>
