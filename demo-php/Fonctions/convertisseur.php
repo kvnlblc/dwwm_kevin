@@ -1,6 +1,6 @@
 <?php
 $montant_euros = readline('Entrer le montant : ');
-$devise = readline('Entrer le pays : ');; // Changez ceci pour convertir en une autre devise
+$devise = readline('Entrer le pays : '); // Changez ceci pour convertir en une autre devise
 
 switch($devise) {
   case 'Angleterre':
