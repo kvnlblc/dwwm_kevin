@@ -1,0 +1,119 @@
+body {
+  width: 960px;
+  margin: 0 auto;
+  background-color: #ffff97;
+}
+header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url(images/header.jpg);
+  background-size: over;
+  background-repeat: no-repeat;
+  height: 340px;
+}
+header img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 366px;
+  height: 82px;
+}
+header h2 {
+  color: #ffff97;
+  text-align: center;
+  letter-spacing: 0.5em;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+.intro {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #363636;
+  text-align: center;
+  align-items: center;
+  height: 320px;
+}
+.intro h2 {
+  color: #ffff97;
+  letter-spacing: 0.5em;
+  border-top: 2px solid #ffff97;
+  border-bottom: 2px solid #ffff97;
+  padding: 5px;
+}
+.intro p {
+  color: #ffff97;
+  line-height: 25px;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+.avengers {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  height: 320px;
+  padding: 150px;
+}
+.avengers h2 {
+  color: #00a5a5;
+}
+.avengers p {
+  color: gray;
+  line-height: 25px;
+}
+.avengers h3 {
+  font-size: 12px;
+  color: #00a5a5;
+}
+.a_star_is_born {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #00a5a5;
+  height: 320px;
+  padding: 150px;
+}
+.a_star_is_born h2 {
+  color: #434343;
+}
+.a_star_is_born p {
+  color: #434343;
+  line-height: 25px;
+}
+.a_star_is_born h3 {
+  font-size: 12px;
+  color: #434343;
+}
+.woman_at_war {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #434343;
+  height: 320px;
+  padding: 150px;
+}
+.woman_at_war h2 {
+  color: white;
+}
+.woman_at_war p {
+  color: white;
+  line-height: 25px;
+}
+.woman_at_war h3 {
+  font-size: 12px;
+  color: white;
+}
+footer {
+  display: flex;
+  justify-content: flex-start;
+  background-color: black;
+  padding: 50px;
+}
+footer p {
+  color: white;
+}
+footer span {
+  color: #ffff97;
+}
