@@ -1,0 +1,2 @@
+-Créer 5 zombie mais qui seront stockés dans la classe Zombie par l'intermédiaire d'un attribut static
+- Afficher les 5 zombie à l'aide d'une méthode static disponible dans cette meme classe.
