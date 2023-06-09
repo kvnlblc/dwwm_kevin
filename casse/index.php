@@ -11,70 +11,53 @@
             </div>
         </div>
 
-<p class="d-flex justify-content-center display-4"><u>Nos services</u></p>
+<h2 class="text-center fw-bold"><u>Nos Services</u></h2>
 
-        <div class="mb-3 ms-5" style="max-width: 540px;">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="/images/carrosserie.jpg" class="img-fluid rounded-start" alt="...">
-    </div>
-    <div class="col-md-8 ps-3">
-      <div class="card-body">
-        <h5 class="card-title">Carrosserie</h5>
-        <p class="card-text">Venez trouver votre bonheur parmis nos multiples références !</p>
+        <div class="container">
+  <div class="row">
+    <div class="col-md-6 col-lg-3">
+      <div class="card">
+        <img src="/images/carrosserie.jpg" class="card-img-top" alt="Pièce Carrosserie">
+        <div class="card-body">
+          <h5 class="card-title">Pièce Carrosserie</h5>
+          <p class="card-text">Vous retrouverez un large choix de pièces de carrosserie.</p>
+          <a href="#" class="btn btn-primary">En savoir plus</a>
+        </div>
       </div>
     </div>
-  </div>
-</div>
 
-<div class="d-fex">
-  <div class="d-flex justify-content-end">
-<div class="mb-3 me-5" style="max-width: 540px;">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="/images/mecanique.jpg" class="img-fluid rounded-start" alt="...">
-    </div>
-    <div class="col-md-8 ps-3">
-      <div class="card-body">
-        <h5 class="card-title">Mécanique</h5>
-        <p class="card-text">Nous proposons un service d'entretiens de votre véhicule.</p>
+    <div class="col-md-6 col-lg-3">
+      <div class="card">
+        <img src="/images/mecanique.jpg" class="card-img-top" alt="Pièce Mécanique">
+        <div class="card-body">
+          <h5 class="card-title">Pièce Mécanique</h5>
+          <p class="card-text">Vous retrouverez un large choix de pièces mécanique.</p>
+          <a href="#" class="btn btn-primary">En savoir plus</a>
+        </div>
       </div>
     </div>
-  </div>
-  </div>
-  </div>
-</div>
 
-<div class="mb-3 ms-5" style="max-width: 540px;">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="/images/electricite.jpg" class="img-fluid rounded-start" alt="...">
-    </div>
-    <div class="col-md-8  ps-3">
-      <div class="card-body">
-        <h5 class="card-title">Électronique</h5>
-        <p class="card-text">Nous proposons une révision de l'éléctronique de votre véhicule.</p>
+    <div class="col-md-6 col-lg-3">
+      <div class="card">
+        <img src="/images/electronique.jpg" class="card-img-top" alt="Pièce Électronique">
+        <div class="card-body">
+          <h5 class="card-title">Pièce Électronique</h5>
+          <p class="card-text">Vous retrouverez un large choix de pièces électronique.</p>
+          <a href="#" class="btn btn-primary">En savoir plus</a>
+        </div>
       </div>
     </div>
-  </div>
-</div>
 
-
-<div class="d-fex">
-  <div class="d-flex justify-content-end">
-<div class="mb-3 me-5" style="max-width: 540px;">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="/images/vidange.jpg" class="img-fluid rounded-start" alt="...">
-    </div>
-    <div class="col-md-8 ps-3">
-      <div class="card-body">
-        <h5 class="card-title">Vidange</h5>
-        <p class="card-text">Nous vous proposons un service de vidange.</p>
+    <div class="col-md-6 col-lg-3">
+      <div class="card">
+        <img src="/images/vidange.jpg" class="card-img-top" alt="Pièce Vidange">
+        <div class="card-body">
+          <h5 class="card-title">Pièce Vidange</h5>
+          <p class="card-text">Vous retrouverez un large choix de pièces pour votre vidange.</p>
+          <a href="#" class="btn btn-primary">En savoir plus</a>
+        </div>
       </div>
     </div>
-  </div>
-  </div>
   </div>
 </div>
         
