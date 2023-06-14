@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://bootswatch.com/5/pulse/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>DK-CASSE</title>
+  
 </head>
 
 <nav class="navbar navbar-expand-lg navbar-dark ">
@@ -19,22 +19,22 @@
       <div class="collapse navbar-collapse" id="navbarColor01">
         <ul class="navbar-nav me-auto">
           <li class="nav-item">
-            <a class="nav-link active" href="#">Accueil</span>
+            <a class="nav-link active" href="index.php">Accueil</span>
             </a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Categorie</a>
             <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">Pièce Carrosserie</a>
-              <a class="dropdown-item" href="#">Pièce Mécanique</a>
-              <a class="dropdown-item" href="#">Pièce Électrique</a>
-              <a class="dropdown-item" href="#">Pièce Vidange</a>
+              <a class="dropdown-item" href="piece_carrosserie.php">Pièce Carrosserie</a>
+              <a class="dropdown-item" href="piece_mecanique.php">Pièce Mécanique</a>
+              <a class="dropdown-item" href="piece_electrique.php">Pièce Électrique</a>
+              <a class="dropdown-item" href="piece_vidange.php">Pièce Vidange</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Nous contacter</a>
+            <a class="nav-link" href="nous_contacter">Nous contacter</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Connexion / Inscription</a>
+            <a class="nav-link" href="connexion.php">Connexion / Inscription</a>
           </li>
         </ul>
         
