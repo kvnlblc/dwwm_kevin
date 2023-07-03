@@ -9,7 +9,7 @@
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
-      <a class="navbar-brand" href="#">Kev3D</a>
+      <a class="navbar-brand" href="/">Kev3D</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -22,7 +22,7 @@
             <a class="nav-link" href="galerie">Galerie</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Formulaire d'impression</a>
+            <a class="nav-link" href="formulaire_impression">Formulaire d'impression</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">

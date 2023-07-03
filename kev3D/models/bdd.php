@@ -1,21 +1,21 @@
 <?php
 
-abstract class bdd{
-    // private accessible classe presente
+class Bdd {
     private static $pdo;
 
-    private static function setBdd(){
-        self::$pdo=new PDO("mysql:host=localhost;dbname=dkcasse;charset=utf8","root","");
-        // Pour gerer les erreurs, constantes dispo
-        self::$pdo->setAttribute(PDO::ATTR_ERRMODE,PDO::ERRMODE_WARNING);
+    private static function setBdd() {
+        try {
+            self::$pdo = new PDO("mysql:host=localhost;dbname=kev3d;charset=utf8", "root", "");
+            self::$pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        } catch (PDOException $e) {
+            echo "Erreur lors de la connexion à la base de données : " . $e->getMessage();
+        }
     }
-    // protected acceesible classes filles
-    protected function getBdd(){
-        if(self::$pdo===null){
+
+    protected function getBdd() {
+        if (self::$pdo === null) {
             self::setBdd();
         }
         return self::$pdo;
     }
 }
-
-?>
