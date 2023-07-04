@@ -1,40 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>JavaScript : Exo 7</title>
+  <title>Calculatrice</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-    <div="container">
-        <h1>Introduction au Document Objet Model</h1>
-
-        <form class="card">
-            <div>
-                <label for="email">Email : </label>
-                <input type="email" id="email" required>
-
-                <label for="motDePasse">Mot de passe : </label>
-                <input type="password" id="motDePasse" required>
-            </div>
-            <div class="resultat" <p id="resultat">
-                </p>
-            </div>
-        </form>
-
+  <h1>La calculatrice</h1>
+  <div class="calculatrice">
+    <div class="resultat" id="result">0</div>
+    <div class="buttons">
+      <div class="button" id="btn-7">7</div>
+      <div class="button" id="btn-8">8</div>
+      <div class="button" id="btn-9">9</div>
+      <div class="button operation" id="btn-plus">+</div>
+      <div class="button" id="btn-4">4</div>
+      <div class="button" id="btn-5">5</div>
+      <div class="button" id="btn-6">6</div>
+      <div class="button operation" id="btn-minus">-</div>
+      <div class="button" id="btn-1">1</div>
+      <div class="button" id="btn-2">2</div>
+      <div class="button" id="btn-3">3</div>
+      <div class="button operation" id="btn-multiply">*</div>
+      <div class="button" id="btn-0">0</div>
+      <div class="button" id="btn-dot">.</div>
+      <div class="button" id="btn-equal">=</div>
+      <div class="button operation" id="btn-divide">/</div>
+      <div class="button" id="btn-clear">C</div>
     </div>
+  </div>
+  <h1>Historique</h1>
+  <div class="historique" id="history"></div> <!-- Nouvel élément pour afficher l'historique -->
 
 
-
-    <script src="script.js"></script>
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            verifierMotDePasse();
-        });
-    </script>
+  <script src="script.js"></script>
 </body>
 
 </html>
