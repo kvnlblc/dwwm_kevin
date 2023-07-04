@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JavaScript : Exo 6</title>
+</head>
+
+<body>
+    <div="container">
+        <h1>Introduction au Document Objet Model</h1>
+
+        <form class="card">
+            <div>
+                <label for="email">Email : </label>
+                <input type="email" id="email" required>
+
+                <label for="motDePasse">Mot de passe : </label>
+                <input type="password" id="motDePasse" required>
+            </div>
+            <div class="resultat" <p id="resultat">
+                </p>
+            </div>
+        </form>
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            verifierMotDePasse();
+        });
+    </script>
+</body>
+
+</html>

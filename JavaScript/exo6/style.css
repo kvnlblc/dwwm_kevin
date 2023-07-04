@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(148, 205, 243);
+}
+
+/* Style des messages d'erreur */
+.message {
+    color: red;
+    margin-bottom: 5px;
+  }
+  
+  /* Style du message de confirmation */
+  .message-ok {
+    color: green;
+    margin-bottom: 5px;
+  }
+  
+  /* Style de l'icône */
+  .message:before {
+    content: "\2716\0020";
+  }
+  
+  .message-ok:before {
+    content: "\2714\0020";
+  }
+  
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    border: 3px ridge black;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    padding: 10px;
+}
+
