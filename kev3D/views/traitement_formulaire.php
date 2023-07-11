@@ -1,5 +1,5 @@
 <?php
-require_once "../models/FormulaireManager.php";
+require_once __DIR__ . "/../models/FormulaireManager.php";
 
 // Récupération des valeurs du formulaire
 $email = $_POST['email'];

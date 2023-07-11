@@ -1,7 +1,7 @@
 <?php ob_start(); ?>
 
 <?php
-// Fichier : formulaire.php
+// Fichier : formulaire_impression.php
 
 require_once './models/FormImpression3D.php';
 
@@ -18,8 +18,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 
 ?>
-
-
 
 <?php $content = ob_get_clean();
 require 'template.php' ?>

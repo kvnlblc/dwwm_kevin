@@ -45,14 +45,24 @@ try {
                 require "views/formulaire_impression.php";
                 break;
             case "traitement_formulaire":
+                // Traiter le formulaire ici
                 require "views/traitement_formulaire.php";
                 break;
             case "confirmation":
                 require "views/confirmation.php";
                 break;
+            case "inscription":
+                require "views/inscription.php";
+                break;
+            case "connexion":
+                require "views/connexion.php";
+                break;
+            case "traitement_inscription":
+                require "views/traitement_inscription.php";
+                break;
             default:
-                // C'est une sorte de else ! De plus, on lève une erreur
-                throw new Exception("La page n'existe pas");
+                // C'est une sorte de else ! De plus, on lève une erreur 404
+                throw new Exception("Erreur 404 - Page non trouvée");
         }
     }
 } catch (Exception $e) {   // Permet d'afficher le message d'erreur
@@ -60,7 +70,8 @@ try {
     if ($_GET["page"] === "traitement_formulaire") {
         header("Location: " . URL . "accueil");
     } else {
-        echo $e->getMessage();
+        // Afficher la page d'erreur 404
+        require "views/page_introuvable.php";
     }
 }
 ?>

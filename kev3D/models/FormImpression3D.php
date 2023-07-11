@@ -9,7 +9,7 @@ class FormImpression3D {
         <div class="container">
         <h1 class="mt-4">Formulaire d'impression 3D</h1>
 
-        <form method="post" action="views/traitement_formulaire.php">
+        <form method="post" action="traitement_formulaire">
             <div class="form-group">
                 <label for="email">Adresse e-mail :</label>
                 <input type="email" class="form-control" id="email" name="email" required>

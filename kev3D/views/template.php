@@ -29,8 +29,8 @@
               Mon compte
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Connexion</a></li>
-              <li><a class="dropdown-item" href="#">Inscription</a></li>
+              <li><a class="dropdown-item" href="connexion">Connexion</a></li>
+              <li><a class="dropdown-item" href="inscription">Inscription</a></li>
             </ul>
           </li>
         </ul>
