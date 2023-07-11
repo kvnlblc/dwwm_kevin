@@ -1,0 +1,29 @@
+body{
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
+svg{
+    width: 70%;
+    fill: rgb(35, 107, 155);
+    stroke: black;
+}
+
+.side{
+    display: flex;
+}
+
+#info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #000000;
+    margin-left: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+    width: 40%;
+}
+
+h1{
+    text-align: center;
+}

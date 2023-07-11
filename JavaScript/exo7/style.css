@@ -1,10 +1,11 @@
 body {
   text-align: center;
   font-family: Arial, sans-serif;
-  background-color: rgb(135, 206, 214);
+  background-color: rgb(148, 21, 199);
+  overflow: hidden;
 }
 
-.calculatrice {
+  .calculatrice {
   width: 220px;
   margin: 0 auto;
   border: 1px solid #000000;
@@ -40,6 +41,17 @@ body {
   cursor: pointer;
 }
 
+.button-kevin {
+  padding: 10px;
+  font-size: 18px;
+  text-align: center;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
 .operation {
   background-color: #ff9f00;
   color: #fff;
@@ -49,3 +61,4 @@ body {
   background-color: #007bff;
   color: #fff;
 }
+

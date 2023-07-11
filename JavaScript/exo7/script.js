@@ -71,3 +71,4 @@ document.addEventListener("DOMContentLoaded", function() {
     history.innerText = calculations.join("\n"); // Met à jour l'historique en joignant les calculs avec un saut de ligne
   }
 });
+

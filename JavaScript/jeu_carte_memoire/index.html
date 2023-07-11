@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu de carte mémoire</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>JEU DE CARTE MEMOIRE</h1>
+    <p>Tentez de gagner avec le moins d'essais possible</p>
+    <h2 id="compteur" class="text-align-center">Cliquer pour commencer</h2>
+    <h3 id="paires"></h3>
+
+    <div class="grille">
+
+        <div class="carte" data-attr="apple" onClick="buttonClick()">
+            <div class="double-face">
+                <div class="face">
+                    <img src="ressources/apple.svg">
+                </div>
+                <div class="arriere">
+                    ❓
+                </div>
+            </div>
+        </div>
+        <div class="carte" data-attr="banana" onClick="buttonClick()">
+            <div class="double-face">
+                <div class="face">
+                    <img src="ressources/banana.svg">
+                </div>
+                <div class="arriere">
+                    ❓
+                </div>
+            </div>
+        </div>
+        <div class="carte" data-attr="brocoli" onClick="buttonClick()">
+            <div class="double-face">
+                <div class="face">
+                    <img src="ressources/brocoli.svg">
+                </div>
+                <div class="arriere">
+                    ❓
+                </div>
+            </div>
+        </div>
+        <div class="carte" data-attr="cherry" onClick="buttonClick()">
+            <div class="double-face">
+                <div class="face">
+                    <img src="ressources/cherry.svg">
+                </div>
+                <div class="arriere">
+                    ❓
+                </div>
+            </div>
+        </div>
+        <div class="carte" data-attr="pepper" onClick="buttonClick()">
+            <div class="double-face">
+                <div class="face">
+                    <img src="ressources/pepper.svg">
+                </div>
+                <div class="arriere">
+                    ❓
+                </div>
+            </div>
+        </div>
+        <div class="carte" data-attr="straw" onClick="buttonClick()">
+            <div class="double-face">
+                <div class="face">
+                    <img src="ressources/straw.svg">
+                </div>
+                <div class="arriere">
+                    ❓
+                </div>
+            </div>
+        </div>
+        <div class="carte" data-attr="banana" onClick="buttonClick()">
+            <div class="double-face">
+                <div class="face">
+                    <img src="ressources/banana.svg">
+                </div>
+                <div class="arriere">
+                    ❓
+                </div>
+            </div>
+        </div>
+        <div class="carte" data-attr="straw" onClick="buttonClick()">
+            <div class="double-face">
+                <div class="face">
+                    <img src="ressources/straw.svg">
+                </div>
+                <div class="arriere">
+                    ❓
+                </div>
+            </div>
+        </div>
+        <div class="carte" data-attr="pepper" onClick="buttonClick()">
+            <div class="double-face">
+                <div class="face">
+                    <img src="ressources/pepper.svg">
+                </div>
+                <div class="arriere">
+                    ❓
+                </div>
+            </div>
+        </div>
+        <div class="carte" data-attr="cherry" onClick="buttonClick()">
+            <div class="double-face">
+                <div class="face">
+                    <img src="ressources/cherry.svg">
+                </div>
+                <div class="arriere">
+                    ❓
+                </div>
+            </div>
+        </div>
+        <div class="carte" data-attr="brocoli" onClick="buttonClick()">
+            <div class="double-face">
+                <div class="face">
+                    <img src="ressources/brocoli.svg">
+                </div>
+                <div class="arriere">
+                    ❓
+                </div>
+            </div>
+        </div>
+        <div class="carte" data-attr="apple" onClick="buttonClick()">
+            <div class="double-face">
+                <div class="face">
+                    <img src="ressources/apple.svg">
+                </div>
+                <div class="arriere">
+                    ❓
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="confetti.min.js"></script>
+
+    <canvas id="confetti-canvas"></canvas>
+</body>
+
+<footer>
+    <p>Kevin LIBLANC - Copyright &copy; 2023 | Tous droits réservés</p>
+</footer>
+
+</html>
