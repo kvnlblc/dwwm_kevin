@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
   const resultMessage = document.getElementById("result-message");
   const retryButton = document.getElementById("retry-button");
 
-  const correctAnswers = ["pichu", "tepig", "flareon"]; // Update with the correct answers for each question
+  const correctAnswers = ["pichu", "gruikui", "pyroli"];
 
   form.addEventListener("submit", function(event) {
     event.preventDefault();

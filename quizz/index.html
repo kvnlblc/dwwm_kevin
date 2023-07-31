@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Pokémon</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>Quiz Pokémon</h1>
+    <form id="quiz-form">
+  <h2>Question 1 : Quel Pokémon évolue en Pikachu ?</h2>
+  <label>
+    <input type="radio" name="q1" value="bulbizarre">Bulbizarre
+  </label>
+  <label>
+    <input type="radio" name="q1" value="pichu">Pichu
+  </label>
+  <label>
+    <input type="radio" name="q1" value="carapuce">Carapuce
+  </label>
+  <label>
+    <input type="radio" name="q1" value="salamèche">Salamèche
+  </label>
+
+  <h2>Question 2 : Quel Pokémon est aussi connu sous le nom de Tepig ?</h2>
+  <label>
+    <input type="radio" name="q2" value="ouisticram">Ouisticram
+  </label>
+  <label>
+    <input type="radio" name="q2" value="tiplouf">Tiplouf
+  </label>
+  <label>
+    <input type="radio" name="q2" value="moustillon">Moustillon
+  </label>
+  <label>
+    <input type="radio" name="q2" value="gruikui">Gruikui
+  </label>
+
+  <h2>Question 3 : Lequel de ces Pokémon est un type Feu ?</h2>
+  <label>
+    <input type="radio" name="q3" value="aquali">Aquali
+  </label>
+  <label>
+    <input type="radio" name="q3" value="pyroli">Pyroli
+  </label>
+  <label>
+    <input type="radio" name="q3" value="voltali">Voltali
+  </label>
+  <label>
+    <input type="radio" name="q3" value="mentali">Mentali
+  </label>
+
+
+  <button type="submit">Valider</button>
+</form>
+
+
+    <div id="result" class="hidden">
+      <h3>Résultat</h3>
+      <p id="result-message"></p>
+      <button id="retry-button">Réessayer</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
