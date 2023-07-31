@@ -143,14 +143,14 @@ function estValide(button) {
             afficheur.sendMessage(
               "Le joueur " +
                 joueurs[tour] +
-                ' a gagné ! <br /> <a href="index.php">Rejouer</a>'
+                ' a gagné ! <br /> <a href="index.html">Rejouer</a>'
             );
             return;
           }
   
           if (matchNul(pions)) {
             afficheur.sendMessage(
-              'Match Nul ! <br/> <a href="index.php">Rejouer</a>'
+              'Match Nul ! <br/> <a href="index.html">Rejouer</a>'
             );
             return;
           }
