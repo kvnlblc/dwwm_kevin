@@ -3,73 +3,81 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <title>Portfolio</title>
 </head>
 
 <body>
-    <section class="nav">
-        <nav>
-            <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+
+    <header>
+        <h1>Mon Portfolio</h1>
+    </header>
+
+    <section id="about">
+        <h2>- À propos de moi</h2>
+        <p>👋 Je m'appelle Kévin, j'ai 25 ans.</p>
+        <p>💬 J'ai un titre professionnelle de Technicien Assistant Informatique (TAI).</p>
+        <p>✍️ J'apprends actuellement le développement web et web Mobile.</p>
+        <h2>- Connaissances</h2>
+        <p>🐧 Je suis à l'aise avec l'environement linux.</p>
+        <p>🧰 Je sais créer des configurations de machine et les monter.</p>
+        <p>🔎 J'aime faire de la recherche de failles de sécurité que ce soit côté web ou réseaux.</p>
+        <p> J'ai également fait pas mal de configuration de serveur de jeu que ce soit sous serveur Linux comme Windows
+            server.</p>
+        <h2>- Language appris</h2>
+        <p><img src="images/css.svg" id="language"> CSS 3</p>
+        <p><img src="images/html.svg" id="language"> HTML 5</p>
+        <p><img src="images/javascript.svg" id="language"> JavaScript</p>
+        <p><img src="images/mysql.svg" id="language"> MySQL</p>
+        <p><img src="images/php.svg" id="language"> PHP</p>
     </section>
 
-    <section class="titre">
-        <h1>Développeur Web & Web Mobile</h1>
-        <p>Je suis un apprenti développeur web et développeur mobile</p>
-    </section>
-
-    <section class="bloc1">
-        <div class="blocombre">
-            <div class="card1">
-                <img src="images/design.png" alt="design">
-                <h2>Designer</h2>
-                <p>Ce que j'aime concevoir :</p>
-                <p>Site Web, Serveur de jeu.</p>
-                <p>Outils de design :</p>
-                <ul>
-                    <li>
-                        <p>Figma</p>
-                    </li>
-                    <li>
-                        <p>Flaticon</p>
-                    </li>
-                </ul>
+    <section id="projects">
+        <h2>Mes Projets</h2>
+        <div class="card">
+            <img src="images/massif.png" alt="Massif">
+            <div class="card-content">
+                <h2>Massif</h2>
+                <p>Maquette de site web Massif.</p>
+                <a href="https://github.com/kvnlblc/dwwm_kevin/tree/main/dev/ExoMassif">Voir le projet sur GitHub</a>
             </div>
-            <div class="card2">
-                <img src="images/fullstack.png" alt="logo">
-                <h2>Développeur FullStack</h2>
-                <p>Langues que je maitrise :</p>
-                <p>HTML, CSS, JavaScript, PHP, SQL</p>
-                <p>Outils de développeur :</p>
-                <ul>
-                    <li>
-                        <p>VS Code</p>
-                    </li>
-                    <li>
-                        <p>Bootstrap 5.1.3</p>
-                    </li>
-                    <li>
-                        <p>Bootswatch</p>
-                    </li>
-                    <li>
-                        <p>GitHub</p>
-                    </li>
-                </ul>
-            </div>
-        
-        <div class="card3">
-            <img src="images/mon_parcours.png" alt="logo">
-            <h2>Mon Parcours</h2>
         </div>
-    </div>
+        <div class="card">
+            <img src="images/legendary.png" alt="Legendary">
+            <div class="card-content">
+                <h2>Legendary</h2>
+                <p>Maquette de site web Legendary.</p>
+                <a href="https://github.com/kvnlblc/dwwm_kevin/tree/main/dev/ExoDevLegendary">Voir le projet sur GitHub</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/morpion.png" alt="Morpion">
+            <div class="card-content">
+                <h2>Morpion</h2>
+                <p>Projet de création d'un morpion en HTML, CSS, JavaScript.</p>
+                <a href="https://github.com/kvnlblc/dwwm_kevin/tree/main/morpion">Voir le projet sur GitHub</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="images/quizz.png" alt="Legendary">
+            <div class="card-content">
+                <h2>Quizz</h2>
+                <p>Projet de création d'un quizz en HTML, CSS, JavaScript.</p>
+                <a href="https://github.com/kvnlblc/dwwm_kevin/tree/main/quizz">Voir le projet sur GitHub</a>
+            </div>
+        </div>
+
     </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Vous pouvez me contacter par mail en cliquant sur <a href="mailto:kvnlblc@outlook.fr">Envoyer un mail</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 LIBLANC Kevin. Tous droits réservés.</p>
+    </footer>
 </body>
 
 </html>
