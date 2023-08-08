@@ -1,0 +1,133 @@
+
+
+body{
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: 'Borel', cursive;}
+
+h1{
+    color: white;
+    text-align: center;
+    text-shadow: 5px 5px 10px rgb(159, 59, 253);
+}
+
+.titre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    width: 20vh;
+    height: 20vh;
+    border-radius: 100%;
+    border: 3px solid white;
+}
+
+.bloc{
+    display: flex;
+    flex-direction: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+h2{
+    color: rgb(32, 204, 26);
+    text-decoration: underline solid;
+}
+
+p{
+    color: white;
+}
+
+li{
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+.bloc1{
+    display: flex;
+    flex-direction: column;
+}
+
+.bloc2{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.contact:hover , .competences:hover, .experiences:hover, .formations:hover, .langues_loisir:hover, .mobilite:hover, footer:hover, img:hover{
+    -webkit-box-shadow:0 0 20px rgb(250, 253, 59); 
+    -moz-box-shadow: 0 0 20px rgb(250, 253, 59); 
+    box-shadow:0 0 20px rgb(250, 253, 59); 
+}
+.contact, .competences, .experiences, .formations, .langues_loisir, .mobilite{
+    background-color: rgb(3, 68, 124);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-shadow:0 0 20px rgb(159, 59, 253); 
+    -moz-box-shadow: 0 0 20px rgb(159, 59, 253); 
+    box-shadow:0 0 20px rgb(159, 59, 253);
+    margin-bottom: 30px;
+    padding-right: 20px;
+    width:600px;
+    height: 300px;
+}
+
+footer{
+    background-color: rgb(3, 68, 124);
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-shadow:0 0 20px rgb(159, 59, 253); 
+    -moz-box-shadow: 0 0 20px rgb(159, 59, 253); 
+    box-shadow:0 0 20px rgb(159, 59, 253);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    padding-right: 20px;
+    width:85vw;
+}
+
+
+@media screen and (max-width: 900px) {
+    body {
+        margin-left: 10px;
+        margin-right: 30px;
+    }
+
+    .bloc{
+        flex-direction: column;
+    }
+
+    .bloc1,
+    .bloc2 {
+        width: 100%;
+        max-width: 600px;
+    }
+
+    .experiences{
+        height: 400px;
+        text-align: center;
+    }
+
+    .formations{
+        height: 400px;
+        text-align: center;
+    }
+
+    .contact, .competences, .experiences, .formations, .langues_loisir, .mobilite, footer {
+        width: 100%;
+    }
+}
