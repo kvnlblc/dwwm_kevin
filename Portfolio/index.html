@@ -1,83 +1,114 @@
-<!DOCTYPE html>
-<html lang="fr">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Portfolio</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
+    <title>Portfolio de LIBLANC Kevin</title>
 </head>
 
 <body>
 
     <header>
-        <h1>Mon Portfolio</h1>
+        <nav>
+            <h2 class="nom">Kevin Liblanc</h2>
+            <a href="cv.pdf" target="_blank">Mon CV</a>
+            <a href="mailto:kvnlblc@outlook.fr">Me contacter</a>
+        </nav>
+        
     </header>
+    <section class="perso">
+        <div class="maphoto"></div>
 
-    <section id="about">
-        <h2>- À propos de moi</h2>
-        <p>👋 Je m'appelle Kévin, j'ai 25 ans.</p>
-        <p>💬 J'ai un titre professionnelle de Technicien Assistant Informatique (TAI).</p>
-        <p>✍️ J'apprends actuellement le développement web et web Mobile.</p>
-        <h2>- Connaissances</h2>
-        <p>🐧 Je suis à l'aise avec l'environement linux.</p>
-        <p>🧰 Je sais créer des configurations de machine et les monter.</p>
-        <p>🔎 J'aime faire de la recherche de failles de sécurité que ce soit côté web ou réseaux.</p>
-        <p>🎮 J'ai également fait pas mal de configuration de serveur de jeu que ce soit sous serveur Linux comme Windows
-            server.</p>
-        <h2>- Language appris</h2>
-        <p><img src="images/css.svg" id="language"> CSS 3</p>
-        <p><img src="images/html.svg" id="language"> HTML 5</p>
-        <p><img src="images/javascript.svg" id="language"> JavaScript</p>
-        <p><img src="images/mysql.svg" id="language"> MySQL</p>
-        <p><img src="images/php.svg" id="language"> PHP</p>
-    </section>
-
-    <section id="projects">
-        <h2>Mes Projets</h2>
-        <div class="card">
-            <img src="images/massif.png" alt="Massif">
-            <div class="card-content">
-                <h2>Massif</h2>
-                <p>Maquette de site web Massif.</p>
-                <a href="https://github.com/kvnlblc/dwwm_kevin/tree/main/dev/ExoMassif">Voir le projet sur GitHub</a>
-            </div>
-        </div>
-        <div class="card">
-            <img src="images/legendary.png" alt="Legendary">
-            <div class="card-content">
-                <h2>Legendary</h2>
-                <p>Maquette de site web Legendary.</p>
-                <a href="https://github.com/kvnlblc/dwwm_kevin/tree/main/dev/ExoDevLegendary">Voir le projet sur GitHub</a>
-            </div>
-        </div>
-        <div class="card">
-            <img src="images/morpion.png" alt="Morpion">
-            <div class="card-content">
-                <h2>Morpion</h2>
-                <p>Projet de création d'un morpion en HTML, CSS, JavaScript.</p>
-                <a href="https://github.com/kvnlblc/dwwm_kevin/tree/main/morpion">Voir le projet sur GitHub</a>
-            </div>
-        </div>
-        <div class="card">
-            <img src="images/quizz.png" alt="Legendary">
-            <div class="card-content">
-                <h2>Quizz</h2>
-                <p>Projet de création d'un quizz en HTML, CSS, JavaScript.</p>
-                <a href="https://github.com/kvnlblc/dwwm_kevin/tree/main/quizz">Voir le projet sur GitHub</a>
-            </div>
+        <div class="description">
+            <h2>A propos de moi</h2>
+            <p>👋 Salut ! Je suis LIBLANC Kevin, un futur développeur web et web mobile. Passionné par la création
+                digitale, je jongle avec le code pour donner vie à des expériences en ligne percutantes.</p>
+            <p>💻 En formation de développement web, j'apprends à maîtriser HTML5, CSS3, JavaScript, MySQL, PHP, Less en
+                les utilisant pour créer des sites et des applis.</p>
+            <p>🌐 Mon objectif ? Marier fonctionnalité et design, pour offrir des interfaces intuitives et attrayantes.
+                Je crois en l'apprentissage continu, et mon portfolio reflète mon évolution constante.</p>
+            <p>💡 En dehors du code, j'aime l'informatique et les voitures qui nourrissent ma créativité dans le monde
+                digital.</p>
+            <p>✉️ Si vous partagez ma passion ou voulez collaborer, je suis à un clic de distance. Merci de visiter mon
+                portfolio !</p>
         </div>
 
     </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Vous pouvez me contacter par mail en cliquant sur <a href="mailto:kvnlblc@outlook.fr">Envoyer un mail</a></p>
+    <section class="progress">
+        <h2>Mon parcours dans le dévelopement web</h2>
+        <div class="box">
+            <div class="box-html">
+                <p>Maîtrise HTML</p>
+                <div class="progress-bar">
+                    <span style="width: 90%"></span>
+                </div>
+
+                
+            </div>
+
+            <div class="box-css">
+                <p>Maîtrise CSS</p>
+                <div class="progress-bar">
+                    <span style="width: 80%"></span>
+                  </div>
+            </div>
+
+            <div class="box-js">
+                <p>Maîtrise JavaScript</p>
+                <div class="progress-bar">
+                    <span style="width: 40%"></span>
+                </div>
+            </div>
+
+            <div class="box-php">
+                <p>Maîtrise PHP</p>
+                <div class="progress-bar">
+                    <span style="width: 60%"></span>
+                </div>
+            </div>
+
+        </div>
     </section>
 
-    <footer>
-        <p>&copy; 2023 LIBLANC Kevin. Tous droits réservés.</p>
-    </footer>
+    <section class="projets">
+        <h2>Voici quelques projets disponibles sur mon GitHub</h2>
+        <div class="box-projets">
+
+            <div class="massif">
+                <div class="massif-content">
+                    <a href="https://github.com/kvnlblc/dwwm_kevin/tree/main/dev/ExoMassif" target="_blank">Cliquez pour
+                        voir le projet sur GitHub</a>
+                </div>
+            </div>
+
+            <div class="legendary">
+                <div class="legendary-content">
+                    <a href="https://github.com/kvnlblc/dwwm_kevin/tree/main/dev/ExoDevLegendary"
+                        target="_blank">Cliquez pour voir le projet sur GitHub</a>
+                </div>
+            </div>
+
+            <div class="quizz">
+                <div class="quizz-content">
+                    <a href="https://github.com/kvnlblc/dwwm_kevin/tree/main/quizz" targer="_blank">Cliquez pour voir le
+                        projet sur GitHub</a>
+                </div>
+            </div>
+
+            <div class="morpion">
+                <div class="morpion-content">
+                    <a href="https://github.com/kvnlblc/dwwm_kevin/tree/main/morpion" targer="_blank">Cliquez pour voir
+                        le projet sur GitHub</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
 </body>
+
+<footer>LIBLANC Kevin 2023</footer>
 
 </html>
