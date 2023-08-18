@@ -7,7 +7,7 @@ body {
     flex-direction: column;
     background: linear-gradient(135deg, #0e0b16, #5c136e);
     overflow-x: hidden;
-    font-family: 'Borel', cursive;
+    font-family: 'arial';
 }
 
 section {
@@ -38,7 +38,7 @@ section {
 
 nav {
     width: 100%;
-    font-family: 'Borel', cursive;
+    font-family: 'arial';
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -276,9 +276,9 @@ h2{
 
   .progress-bar {
     box-sizing: content-box;
-    height: 20px; /* Can be anything */
+    height: 20px; 
     position: relative;
-    margin: 60px 0 20px 0; /* Just for demo spacing */
+    margin: 60px 0 20px 0;
     background: #555;
     border-radius: 25px;
     padding: 10px;
@@ -363,4 +363,206 @@ h2{
     -webkit-box-shadow:0 0 20px rgb(159, 59, 253);
     -moz-box-shadow: 0 0 20px rgb(159, 59, 253);
     box-shadow:0 0 20px rgb(159, 59, 253);
+  }
+
+  @media (max-width: 767px) {  /*  FORMAT TELEPHONE  */
+
+    nav {
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .perso{
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .maphoto {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+    
+    .mon_parcours{
+      padding-left: 10px;
+      padding-right: 10px;
+      text-align: center;
+    }
+
+    .projets_dispo{
+      padding-left: 10px;
+      margin-right: 10px;
+      text-align: center;
+    }
+  
+    .description {
+      width: auto;
+      height: auto;
+      padding: 20px;
+      margin: 5px;
+    }
+  
+    .box {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .box-html,
+    .box-css,
+    .box-js,
+    .box-php {
+      margin-bottom: 20px;
+    }
+  
+    .box-projets {
+      flex-direction: column;
+      align-items: center; 
+    }
+
+    .massif, .legendary, .quizz, .morpion {
+      margin-bottom: 20px; 
+      width: 50vw;
+      height: 50vw; 
+
+    }
+
+    footer{
+      width: auto;
+      height: auto;
+    }
+  }
+
+  .request_message {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    height: 10vh;
+    background-color: rgb(88, 88, 88);
+    border-radius: 15px;
+    border: 3px solid white;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    margin-bottom: 15px;
+    -webkit-box-shadow:0 0 20px rgb(159, 59, 253);
+    -moz-box-shadow: 0 0 20px rgb(159, 59, 253);
+    box-shadow:0 0 20px rgb(159, 59, 253);
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 50vh;
+    background-color: rgb(88, 88, 88);
+    border-radius: 15px;
+    border: 3px solid white;
+    padding-left: 5vh;
+    padding-right: 5vh;
+    margin-bottom: 15px;
+    -webkit-box-shadow:0 0 20px rgb(159, 59, 253);
+    -moz-box-shadow: 0 0 20px rgb(159, 59, 253);
+    box-shadow:0 0 20px rgb(159, 59, 253);
+  }
+
+  input, textarea {
+    border-radius: 15px;
+    border: 3px solid white;
+    padding: .5em;
+    margin: .5em;
+    font-size: 1em;
+    text-align: center;
+
+  }
+  
+  @media (max-width: 480px) {
+    section {
+      padding-bottom: 20px;
+    }
+  
+    .maphoto,
+    .legendary,
+    .quizz,
+    .morpion {
+      width: 50vw;
+      height: 50vw;
+    }
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1023px) { /* FORMAT TABLETTE */
+    
+    nav {
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .perso{
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .maphoto {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+    
+    .mon_parcours{
+      padding-left: 10px;
+      padding-right: 10px;
+      text-align: center;
+    }
+
+    .projets_dispo{
+      padding-left: 10px;
+      margin-right: 10px;
+      text-align: center;
+    }
+  
+    .description {
+      width: auto;
+      height: auto;
+      padding: 20px;
+      margin: 5px;
+    }
+  
+    .box {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .box-html,
+    .box-css,
+    .box-js,
+    .box-php {
+      margin-bottom: 20px;
+    }
+  
+    .box-projets {
+      flex-direction: column;
+      align-items: center; 
+    }
+
+    .massif, .legendary, .quizz, .morpion {
+      margin-bottom: 20px; 
+      width: 50vw;
+      height: 50vw; 
+
+    }
+
+    footer{
+      width: auto;
+      height: auto;
+    }
+
+
+
+
+
+
   }
