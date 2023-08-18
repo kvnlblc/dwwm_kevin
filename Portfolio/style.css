@@ -478,6 +478,10 @@ h2{
     text-align: center;
 
   }
+
+  iconify-icon{
+    color: white;
+  }
   
   @media (max-width: 480px) {
     section {

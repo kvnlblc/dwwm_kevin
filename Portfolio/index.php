@@ -11,9 +11,10 @@
 
     <header>
         <nav>
-            <h2 class="nom">Kevin Liblanc</h2>
+        <a href="index.php">Accueil</a>        
+        <h2 class="nom" >Kevin Liblanc</h2>
             <a href="cv.pdf" target="_blank">Mon CV</a>
-            <a href="mailto:kvnlblc@outlook.fr">Me contacter</a>
+            <a href="contact.php">Me contacter</a>
         </nav>
         
     </header>
@@ -110,7 +111,6 @@
 
     <footer>LIBLANC Kevin 2023</footer>
 </body>
-
 
 
 </html>
